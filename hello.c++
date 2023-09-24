@@ -5,42 +5,15 @@
 using namespace std;
 
 int main(){
-   // int matrix[3][4] = {{1,2,3,4},{5,6,7,8}, {9,11,15,20}};
-   // int row = 3, col = 4, s=0, e=row*col-1;
-   // int mid = (e+s)/2, key = 4;
 
-   // for(int i=s; i<=e; i=(e+s)/2){
-   //    int element = matrix[mid/col][mid%col];
-   //    if(key>matrix[row-1][col-1] || key<matrix[0][0] || s>e){
-   //       cout<<"Not present";
-   //       break;
-   //    }
-   //    if(element == key){
-   //       cout<<"present";
-   //       break;
-   //    }
-   //    else if(element > key){
-   //       e = i-1;;
-   //    }
-   //    else{
-   //       s = i+1;
-   //    }
-   // }
-
-
-
-
-
-
+   int num = 10;
+   int *ptr = &num;
+   cout<<ptr;
 
 
 
 return 0;
 }
-
-
-
-
 
 
 
@@ -219,6 +192,10 @@ return 0;
 //       compStr+=(to_string(count));
 //    }
 //    cout<<compStr;
+
+
+
+
 
 
 
